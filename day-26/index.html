@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies</title>
+</head>
+<body>
+    <h1>check localStorage and sessionStorage</h1>
+    <script>
+        function createcookies(){
+            document.cookie="name=Girish";
+        }
+        createcookies();
+        localStorage.setItem("name","girish");
+
+       localStorage.setItem("employee",JSON.stringify({a:'kiran',b:"abu",c:"chaamu"}));
+
+       sessionStorage.setItem("name","girish");
+       sessionStorage.setItem("age","25");
+    </script>
+</body>
+</html>
