@@ -1,0 +1,29 @@
+.box1{
+    border:1px solid black;
+    background-color: red;
+    height: 50px;
+}
+.elogo
+{
+    border-radius: 50%;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 24px;
+    position: absolute;
+    left: 95px;
+    top: 15px;
+}
+.bodybox
+{
+    border:3px double grey;
+    height: 200px;
+    width: auto;
+    display: flex;
+}
+.dummybox1{
+    border: 2px double mediumaquamarine;
+    padding: 2px;
+    
+}
