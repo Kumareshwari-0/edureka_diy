@@ -1,0 +1,13 @@
+.mainbox{
+    border: 2px solid greenyellow;
+   width: 80%;
+   margin: auto;
+    display: flex;
+    gap:1rem;
+    flex-wrap: wrap;
+}
+.box1{
+    border: 3px solid plum;
+    flex:1;
+    padding: 0.5rem;
+}
