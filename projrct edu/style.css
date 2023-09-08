@@ -1,0 +1,38 @@
+*{
+    margin-top: 2px;
+    max-width: 100%;
+    margin-bottom: 1px;
+}
+body{
+    background-image: url('https://wallpaperaccess.com/full/1092564.jpg');
+    background-size: cover 100%;
+}
+#elogo
+{
+    width: 25%;
+    height: 45%;
+    margin-top: 1%;
+}
+.head1
+{
+    text-align: center;
+    font-family: Georgia, serif;
+    color:rgb(225, 218, 209);
+}
+.container{
+    display:grid;
+    border: 1px dotted black;
+    border-radius: 1%;
+}
+.text{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text1{
+    font-size: 30px;
+    color: white;
+}
+.btn
+{
+    width: 100px;
+}
