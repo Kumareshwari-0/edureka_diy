@@ -1,0 +1,25 @@
+*{
+    margin: 1rem;
+}
+.svgicon {
+    height: 40px;
+    width: 40px;
+}
+#upbox
+{
+    background-color: cadetblue;
+    box-shadow: 5px 5px rgb(163, 191, 192);
+}
+.title1
+{
+    font-size: 2rem;
+    color: azure;
+}
+
+#per{
+    height: 2cm;
+    width: 100%;
+    border:2px solid blanchedalmond;  
+    box-shadow: 5px 10px #888888;
+    font-size: 1.5rem;
+}
