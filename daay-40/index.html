@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Node {
+  constructor(data) {
+    this.data = data;
+    this.next = null;
+  }
+}
+
+class LinkedList {
+  constructor() {
+    this.head = null;
+  }
+
+  insert(data) {
+    const newNode = new Node(data);
+    newNode.next = this.head;
+    this.head = newNode;
+  }
+
+  delete(data) {
+    let currentNode = this.head;
+    let prevNode = null;
+
+    while (currentNode !== null) {
+      if (currentNode.data === data) {
+        if (prevNode === null) {
+          this.head = currentNode.next;
+        } else {
+          prevNode.next = currentNode.next;
+        }
+        return true;
+      }
+      prevNode = currentNode;
+      currentNode = currentNode.next;
+    }
+    return false;
+  }
+  search(data) {
+    let currentNode = this.head;
+
+    while (currentNode !== null) {
+      if (currentNode.data === data) {
+        return true;
+      }
+      currentNode = currentNode.next;
+    }
+    return false;
+  }
+
+
+  print() {
+    let currentNode = this.head;
+
+    while (currentNode !== null) {
+      console.log(currentNode.data);
+      currentNode = currentNode.next;
+    }
+  }
+}
+
+
+const linkedList = new LinkedList();
+linkedList.insert(1);
+linkedList.insert(2);
+linkedList.insert(3);
+linkedList.print(); 
+console.log(linkedList.search(2)); 
+console.log(linkedList.delete(2)); 
+linkedList.print(); 
+
+    </script>
+</body>
+</html>
