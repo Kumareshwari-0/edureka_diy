@@ -1,0 +1,16 @@
+MongoDB data models:
+        TWO types :-
+            Embedded data models -->It can be denormalized,Uses nested documents in collections to create relationships.
+
+            Normalized data models --> It is reference based,Uses links in the data to create relationships.
+
+Terminologies used in relational schema:-
+        Relation
+        Attribute
+        Domain
+        Tuple
+
+Merits of object relational schema:-
+        Inheritance: Users can inherit tables and objects
+        Complex data types: Users can create complex data types from existing data types
+        Extensibility: Users can extend the system's functionality
