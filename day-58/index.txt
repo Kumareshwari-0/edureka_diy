@@ -1,0 +1,25 @@
+1.Mongo DB:
+        MongoDB is an open-source document-oriented database that is designed to store a large scale of data and also allows you to work with that data very efficiently. 
+        It is categorized under the NoSQL database because  the storage and retrieval of data in the MongoDB are not in the form of tables.
+        It was released in february 2009.
+
+MongoDB Terminologies:
+        Database:Organised collection of data.
+        Collection:As like table it contains bunch of MongoDB documents.
+        Documents:contains objects and key pairs.
+        Fields:similar to rows and columns in table.
+
+2.Application Data modeling:
+        Data consistency
+        Scalability
+        Performance
+        Application Needs
+        Capacity
+
+3.Installation of MongoDB:
+        Open official website of MongoDB.
+        Select version.
+        Select version of your computer OS.
+        Select file with MSI format.
+        Click download.
+        After downloaded a file,you need to install the Application on your loacal computer.
