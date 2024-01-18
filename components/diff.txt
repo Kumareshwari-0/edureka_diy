@@ -1,0 +1,8 @@
+Difference between class components and Functional components:
+
+CLASS COMPONENTS:
+     Class components are the traditional way to create React components. They are written as JavaScript classes that extend the React.Component class. Class components can have state and lifecycle methods.
+
+
+FUNCTIONAL COMPONENTS:
+    Functional components are a newer way to create React components. They are simply JavaScript functions that accept props and return React elements. Functional components cannot have state or lifecycle methods.
