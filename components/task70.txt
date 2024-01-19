@@ -1,0 +1,26 @@
+Life cycle methods in React:
+
+THREE LIFE CYCLE METHODS IN REACT: 
+        Mounting
+        Updating
+        Unmounting
+
+
+MOUNTING:Birth stage of components
+        contains 4 bulit in methods
+            Constructor()
+            GetDerivedFromProps()
+            Render()
+            ComponentDidMount()
+
+Updating:Just Updating the components
+        contains 5 built in methods
+            GetDerivedFromProps()
+            Render()
+            ShouldComponentsUpdate()
+            GetSnapShotBeforeUpdate()
+            componentDidUpdate()
+
+Unmounting:Removed from the react component 
+            Components removed from DOM.Built in method is
+                ComponentwillMount()
