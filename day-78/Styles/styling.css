@@ -1,0 +1,19 @@
+.container1 {
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px grey;
+    color: rgb(65, 74, 91);
+    text-align: center;
+}
+
+.container {
+    padding: 5px;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 0.5 cm;
+    background-color: aqua;
+}
