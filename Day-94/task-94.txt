@@ -1,0 +1,25 @@
+What is domain name?
+
+        A domain name is a string of text that is used to access a website from a client software, such as a browser. It is similar to a phone number, but it is easier to remember and doesn't need to be memorized. 
+
+        Example:  google.com
+
+        google is the name of the domain.
+
+what is DNS explain how it works?
+
+        DNS stands for Domain Name System, and it's a naming system that translates domain names into IP addresses.
+
+DNS Works..
+        When a user types a domain name into their browser, the DNS server finds the corresponding IP address.
+        The DNS server checks its cache memory to see if it already has the IP address. If so, it sends the IP address directly to the browser.
+
+What is Hosting? Explain Its Features
+
+
+        Hosting is the process of storing files and data on a server, which is then accessible by other computers. In web hosting, the server is called a host.
+
+        Shared hosting
+        Virtual private server hosting
+        Cloud Hosting
+        Dedicated hosting
