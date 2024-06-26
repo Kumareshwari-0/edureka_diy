@@ -1,0 +1,22 @@
+Deploy backend to Heroku
+
+npm install -g Heroku
+
+create env file -->.env
+
+create procfile in root add web:npm
+
+initialize git init
+
+sign-in Heroku
+
+trigger built command
+
+git commit-m
+
+heroku create
+
+git push heroku master
+
+
+The back-end is a crucial part of most apps. It’s used in operations involving routing, requests, and data. And, as you know, Heroku is a service that lets you get a back-end app up-and-running quickly. In this article, you’ll learn how to deploy a simple, pre-built, Node.js app on Heroku’s platform. But if JavaScript isn’t your cup of tea, feel free to follow along using your preferred language, and/or personal repository.
